@@ -21,8 +21,10 @@ public class Main {
       boolean isOnline = true;
 
       String name = "Glen O";
+      String email = "yourmail@gmail.com";
 
-      System.out.println(name);
+      System.out.println("Hello " + name + "!");
+      System.out.println("Your email is: " + email);
 
 
     }
