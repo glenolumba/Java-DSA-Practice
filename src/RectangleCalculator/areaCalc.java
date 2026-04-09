@@ -36,5 +36,6 @@ public class areaCalc {
 
 
 
+        scanner.close();
     }
 }
