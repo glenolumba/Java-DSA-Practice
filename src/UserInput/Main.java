@@ -10,8 +10,14 @@ public class Main {
 
         String name;
 
-        System.out.println("Enter your name: ");
+        System.out.print("Enter your name: ");
         name = scanner.nextLine();
+
+        System.out.print("Enter your age: ");
+        int age = scanner.nextInt();
+
+        System.out.println("Hello " + name);
+        System.out.println("Your age is " + age + " years old");
 
 
         scanner.close();
