@@ -20,7 +20,9 @@ public class Main {
       boolean forSale = false;
       boolean isOnline = true;
 
-      System.out.println(isStudent);
+      String name = "Glen O";
+
+      System.out.println(name);
 
 
     }
