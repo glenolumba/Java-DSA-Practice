@@ -20,6 +20,11 @@ public class main {
         System.out.print("Enter the length of side B: ");
         b = scanner.nextDouble();
 
+        c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+
+        System.out.println("The hypotenuse is: " + c + "cm");
+
+
 
 
         scanner.close();
